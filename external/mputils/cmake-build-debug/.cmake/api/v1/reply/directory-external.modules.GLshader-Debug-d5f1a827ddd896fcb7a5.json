@@ -1,0 +1,101 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"external/modules/GLshader/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/modules/GLshader/libglsp.so"
+			],
+			"targetId" : "glsp::@0e6d3c4c8ad2332d3fd3",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"external/modules/GLshader/include/glsp"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/glsp",
+			"paths" : 
+			[
+				"cmake-build-debug/external/modules/GLshader/glspConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/glsp",
+			"exportName" : "glsp-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "glsp::@0e6d3c4c8ad2332d3fd3",
+					"index" : 7
+				}
+			],
+			"paths" : 
+			[
+				"external/modules/GLshader/CMakeFiles/Export/lib/cmake/glsp/glspConfig.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/modules/GLshader",
+		"source" : "external/modules/GLshader"
+	}
+}

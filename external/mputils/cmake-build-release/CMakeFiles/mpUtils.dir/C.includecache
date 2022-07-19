@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../external/snippets/include/mpUtils/external/tinyfd/tinyfiledialogs.h
+
+/home/hendrik/CLionProjects/mpUtils/external/snippets/src/tinyfd/tinyfiledialogs.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+sys/stat.h
+-
+mpUtils/external/tinyfd/tinyfiledialogs.h
+/home/hendrik/CLionProjects/mpUtils/external/snippets/src/tinyfd/mpUtils/external/tinyfd/tinyfiledialogs.h
+windows.h
+-
+shlobj.h
+-
+conio.h
+-
+commdlg.h
+-
+limits.h
+-
+unistd.h
+-
+dirent.h
+-
+termios.h
+-
+sys/utsname.h
+-
+signal.h
+-
+

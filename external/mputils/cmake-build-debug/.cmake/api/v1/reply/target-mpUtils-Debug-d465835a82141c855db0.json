@@ -1,0 +1,735 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libmpUtilsd.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"set_target_properties",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 309,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 329,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 277,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 278,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 254,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 251,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 265,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 305,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 225,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 137,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-comment"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-dangling-else"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "GLEW_NO_GLU"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "GLFW_INCLUDE_GLCOREARB"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "GLM_ENABLE_EXPERIMENTAL"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "STBI_FAILURE_USERMSG"
+				},
+				{
+					"define" : "mpUtils_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/home/hendrik/CLionProjects/mpUtils/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/hendrik/CLionProjects/mpUtils/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/hendrik/CLionProjects/mpUtils/external/snippets/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/hendrik/CLionProjects/mpUtils/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/hendrik/CLionProjects/mpUtils/external/snippets/include/mpUtils/external/imgui"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/hendrik/CLionProjects/mpUtils/external/snippets/src/imgui/impl"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/usr/lib/cmake/glm"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					14
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-comment"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-dangling-else"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "GLEW_NO_GLU"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "GLFW_INCLUDE_GLCOREARB"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "GLM_ENABLE_EXPERIMENTAL"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "STBI_FAILURE_USERMSG"
+				},
+				{
+					"define" : "mpUtils_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/home/hendrik/CLionProjects/mpUtils/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/hendrik/CLionProjects/mpUtils/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/hendrik/CLionProjects/mpUtils/external/snippets/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/hendrik/CLionProjects/mpUtils/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/hendrik/CLionProjects/mpUtils/external/snippets/include/mpUtils/external/imgui"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/hendrik/CLionProjects/mpUtils/external/snippets/src/imgui/impl"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/usr/lib/cmake/glm"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "glsp::@0e6d3c4c8ad2332d3fd3"
+		}
+	],
+	"id" : "mpUtils::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/hendrik/CLionProjects/mpUtils/cmake-build-debug/external/modules/GLshader:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libglfw.so.3.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLEW.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lstdc++fs",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "external/modules/GLshader/libglsp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lstdc++fs",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "mpUtils",
+	"nameOnDisk" : "libmpUtilsd.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 15,
+			"compileGroupIndex" : 0,
+			"path" : "src/Misc/stringUtils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"compileGroupIndex" : 0,
+			"path" : "src/Log/LogStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"compileGroupIndex" : 0,
+			"path" : "src/Log/FileSink.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"compileGroupIndex" : 0,
+			"path" : "src/Log/ConsoleSink.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"compileGroupIndex" : 0,
+			"path" : "src/Log/BufferedSink.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"compileGroupIndex" : 0,
+			"path" : "src/Log/Log.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"compileGroupIndex" : 0,
+			"path" : "external/snippets/src/stb_image_impl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"compileGroupIndex" : 0,
+			"path" : "external/snippets/src/stb_image_write_impl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"compileGroupIndex" : 1,
+			"path" : "external/snippets/src/tinyfd/tinyfiledialogs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"compileGroupIndex" : 0,
+			"path" : "src/ResourceManager/mpUtilsResources.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"compileGroupIndex" : 0,
+			"path" : "src/ResourceManager/ResourceCache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"compileGroupIndex" : 0,
+			"path" : "src/Misc/Image.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"compileGroupIndex" : 0,
+			"path" : "src/IO/SerialPortStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "src/Log/SyslogSink.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "src/IO/posixSerialPort.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Opengl/Framebuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Opengl/Shader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Opengl/Texture.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Opengl/Sampler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Opengl/Buffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Opengl/SyncObject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Rendering/Camera.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Rendering2D/Camera2D.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Rendering2D/Sprite2D.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Rendering2D/Renderer2D.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Utils/Transform.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Utils/Transform2D.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Window.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "external/snippets/src/imgui/imgui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "external/snippets/src/imgui/imgui_demo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "external/snippets/src/imgui/imgui_draw.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "external/snippets/src/imgui/imgui_widgets.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "external/snippets/src/imgui/impl/imgui_impl_opengl3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "external/snippets/src/imgui/impl/imgui_impl_glfw.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "external/snippets/src/imgui/stdlib/imgui_stdlib.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Gui/ImGui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Gui/ImGuiStyles.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Gui/ImGuiElements.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Gui/ImGuiWindows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/Graphics/Input.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "src/ResourceManager/mpGraphicsResources.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

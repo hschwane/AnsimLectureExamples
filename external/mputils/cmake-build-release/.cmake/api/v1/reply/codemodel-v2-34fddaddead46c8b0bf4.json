@@ -1,0 +1,505 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c92b05c8a3430fdbabbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "external/modules/GLshader",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.modules.GLshader-Release-c85458afa4dd6d8757fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/modules/GLshader",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "examples/01_basic_code",
+					"jsonFile" : "directory-examples.01_basic_code-Release-6a4153f7befe71786d2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/01_basic_code",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "examples/02_hello_triangle",
+					"jsonFile" : "directory-examples.02_hello_triangle-Release-00d39a0f064f385650c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/02_hello_triangle",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "examples/03_improved_triangle",
+					"jsonFile" : "directory-examples.03_improved_triangle-Release-c26e0dca900aa48d7abf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/03_improved_triangle",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "examples/04_3D_Triangle",
+					"jsonFile" : "directory-examples.04_3D_Triangle-Release-00e1b2444363728dba97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/04_3D_Triangle",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "examples/05_3D_TrianglesWithCamera",
+					"jsonFile" : "directory-examples.05_3D_TrianglesWithCamera-Release-d29350980c76e498a9c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/05_3D_TrianglesWithCamera",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "examples/argParserTest",
+					"jsonFile" : "directory-examples.argParserTest-Release-bfd0c85342dcd1ec20eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/argParserTest",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "examples/cudaTest",
+					"jsonFile" : "directory-examples.cudaTest-Release-d1a93b9ba46cb4cbe125.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/cudaTest"
+				},
+				{
+					"build" : "examples/devTest",
+					"jsonFile" : "directory-examples.devTest-Release-260edd6db439107e1836.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/devTest",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "examples/graphicsTest",
+					"jsonFile" : "directory-examples.graphicsTest-Release-b29bc13d59ee7a2190f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/graphicsTest",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "examples/imGuiTest",
+					"jsonFile" : "directory-examples.imGuiTest-Release-ec20a29546ea19051900.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/imGuiTest",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "examples/imageTest",
+					"jsonFile" : "directory-examples.imageTest-Release-a81681d32fbb32c484ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/imageTest",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "examples/matrixTest",
+					"jsonFile" : "directory-examples.matrixTest-Release-142cf147587ed9fb1a14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/matrixTest"
+				},
+				{
+					"build" : "examples/resourceCompiler",
+					"jsonFile" : "directory-examples.resourceCompiler-Release-8916c7106bcfde592a8b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/resourceCompiler",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "examples/resourceManagerTest",
+					"jsonFile" : "directory-examples.resourceManagerTest-Release-11964fe48580cad7bd49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/resourceManagerTest",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "examples/serialPort",
+					"jsonFile" : "directory-examples.serialPort-Release-4ff67ae8c28cab265b20.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/serialPort",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "examples/templateExperiments",
+					"jsonFile" : "directory-examples.templateExperiments-Release-e901e629062ef43c3f9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/templateExperiments",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "examples/tomlTest",
+					"jsonFile" : "directory-examples.tomlTest-Release-06cfa56d3110cee7de9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples/tomlTest",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					],
+					"name" : "mpUtils",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "glsp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "GLexample1::@a2366d6e2a5622ca6ca8",
+					"jsonFile" : "target-GLexample1-Release-df32a94c195e5a3f2bb2.json",
+					"name" : "GLexample1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "GLexample2::@8e90022a5acc81f9f9d6",
+					"jsonFile" : "target-GLexample2-Release-67f6fbd05111fb8360ee.json",
+					"name" : "GLexample2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "GLexample3::@ca70d912bed52a2d0787",
+					"jsonFile" : "target-GLexample3-Release-ddf4e195113e4ecd39e3.json",
+					"name" : "GLexample3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "GLexample4::@c8fad6fc174ce1592d3c",
+					"jsonFile" : "target-GLexample4-Release-6273c176b46a3abadc09.json",
+					"name" : "GLexample4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "GLexample5::@cc5e1cf031bf3600b96b",
+					"jsonFile" : "target-GLexample5-Release-de3c1cd05dbcb950571e.json",
+					"name" : "GLexample5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "argParserTest::@d18113c9866d90423ba6",
+					"jsonFile" : "target-argParserTest-Release-fc10e85824de744efe90.json",
+					"name" : "argParserTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "devTest::@ad661a2fc43730998bc6",
+					"jsonFile" : "target-devTest-Release-34daac82f3a43c335336.json",
+					"name" : "devTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glsp::@0e6d3c4c8ad2332d3fd3",
+					"jsonFile" : "target-glsp-Release-c91da91ad19c436f88b3.json",
+					"name" : "glsp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "graphicsTest::@f402b9b7146d22d9ef34",
+					"jsonFile" : "target-graphicsTest-Release-79cf7a8cab3f3af01c4b.json",
+					"name" : "graphicsTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "imGuiTest::@7a9ac803b557b0771e9e",
+					"jsonFile" : "target-imGuiTest-Release-1f75f6998edf4537833e.json",
+					"name" : "imGuiTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "imageTest::@62c64131ef3a892a997f",
+					"jsonFile" : "target-imageTest-Release-9143b50f6df0bc660bb0.json",
+					"name" : "imageTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpUtils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpUtils-Release-d91b87c84aca98afc4f8.json",
+					"name" : "mpUtils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "resMngrTest::@cfae9635ac7022d07dd2",
+					"jsonFile" : "target-resMngrTest-Release-a1b50b148fb07aa42c58.json",
+					"name" : "resMngrTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "resourceCompiler::@7cceb9a37678ce15f1b2",
+					"jsonFile" : "target-resourceCompiler-Release-880b36c7adea6ced71e7.json",
+					"name" : "resourceCompiler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "serialPort::@f17bdd680a25ca6796bc",
+					"jsonFile" : "target-serialPort-Release-23437e2afef4e36eea66.json",
+					"name" : "serialPort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "templateExperiments::@0c13a1eaf507b958b03a",
+					"jsonFile" : "target-templateExperiments-Release-2a65bc6aa82243dd10e0.json",
+					"name" : "templateExperiments",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "tomlTest::@fef513a176d18143cdea",
+					"jsonFile" : "target-tomlTest-Release-ddd262cce8d2819ccc31.json",
+					"name" : "tomlTest",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hendrik/CLionProjects/mpUtils/cmake-build-release",
+		"source" : "/home/hendrik/CLionProjects/mpUtils"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

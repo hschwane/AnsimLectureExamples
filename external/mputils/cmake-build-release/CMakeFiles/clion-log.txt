@@ -1,0 +1,22 @@
+/snap/clion/198/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_BUILD_TYPE=Release -DBUILD_EXAMPLES=ON -DEXPORT_BUILD_TREE=ON -G "CodeBlocks - Unix Makefiles" -S /home/hendrik/CLionProjects/mpUtils -B /home/hendrik/CLionProjects/mpUtils/cmake-build-release
+-- Cuda was not found on found on your system. Cuda support is disabled.
+Found Executable in folder '01_basic_code'.
+Found Executable in folder '02_hello_triangle'.
+Found Executable in folder '03_improved_triangle'.
+Found Executable in folder '04_3D_Triangle'.
+Found Executable in folder '05_3D_TrianglesWithCamera'.
+Found Executable in folder 'argParserTest'.
+Found Executable in folder 'cudaTest'.
+Found Executable in folder 'devTest'.
+Found Executable in folder 'graphicsTest'.
+Found Executable in folder 'imGuiTest'.
+Found Executable in folder 'imageTest'.
+Found Executable in folder 'matrixTest'.
+Found Executable in folder 'resourceCompiler'.
+Found Executable in folder 'resourceManagerTest'.
+Found Executable in folder 'serialPort'.
+Found Executable in folder 'templateExperiments'.
+Found Executable in folder 'tomlTest'.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hendrik/CLionProjects/mpUtils/cmake-build-release

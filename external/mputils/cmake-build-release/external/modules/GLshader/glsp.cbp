@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glsp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\modules\;CMake Files\external\modules\GLshader\;CMake Files\cmake\;CMake Files\.git\;CMake Files\.git\refs\;CMake Files\.git\refs\heads\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\glm\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\;CMake Files\src\;CMake Files\src\CmakeConfigureTemplates\;CMake Files\examples\;CMake Files\examples\01_basic_code\;CMake Files\examples\02_hello_triangle\;CMake Files\examples\03_improved_triangle\;CMake Files\examples\04_3D_Triangle\;CMake Files\examples\05_3D_TrianglesWithCamera\;CMake Files\examples\argParserTest\;CMake Files\examples\cudaTest\;CMake Files\examples\devTest\;CMake Files\examples\graphicsTest\;CMake Files\examples\imGuiTest\;CMake Files\examples\imageTest\;CMake Files\examples\matrixTest\;CMake Files\examples\resourceCompiler\;CMake Files\examples\resourceManagerTest\;CMake Files\examples\serialPort\;CMake Files\examples\templateExperiments\;CMake Files\examples\tomlTest\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glsp">
+				<Option output="/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader/libglsp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/include"/>
+					<Add directory="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader/Makefile&quot;  VERBOSE=1 glsp"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glsp/fast">
+				<Option output="/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader/libglsp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/include"/>
+					<Add directory="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader/Makefile&quot;  VERBOSE=1 glsp/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/hendrik/CLionProjects/mpUtils/cmake-build-release/external/modules/GLshader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/compiler/compiler.cpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/compress/huffman.cpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/definition.cpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/opengl/loader.cpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/opengl/loader.hpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/preprocessor/classify.cpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/preprocessor/classify.hpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/preprocessor/control.cpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/preprocessor/control.hpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/preprocessor/eval.cpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/preprocessor/eval.hpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/preprocessor/extensions.cpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/preprocessor/extensions.hpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/preprocessor/macro.cpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/preprocessor/macro.hpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/preprocessor/preprocessor.cpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/preprocessor/skip.cpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/src/preprocessor/skip.hpp">
+			<Option target="glsp"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/external/modules/GLshader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\modules\GLshader\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/cmake/GetGitRevisionDescription.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/cmake/GetGitRevisionDescription.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/cmake/GetVersionFromGit.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/cmake/mpUtilsConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/cmake/setDefaultTypeRelease.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/.git/HEAD">
+			<Option virtualFolder="CMake Files\.git\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/.git/refs/heads/master">
+			<Option virtualFolder="CMake Files\.git\refs\heads\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/../../../../usr/lib/cmake/glm/glmConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/../../../../usr/lib/cmake/glm/glmConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/src/CmakeConfigureTemplates/paths.h.in">
+			<Option virtualFolder="CMake Files\src\CmakeConfigureTemplates\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/src/CmakeConfigureTemplates/version.h.in">
+			<Option virtualFolder="CMake Files\src\CmakeConfigureTemplates\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/01_basic_code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\01_basic_code\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/02_hello_triangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\02_hello_triangle\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/03_improved_triangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\03_improved_triangle\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/04_3D_Triangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\04_3D_Triangle\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/05_3D_TrianglesWithCamera/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\05_3D_TrianglesWithCamera\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/argParserTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\argParserTest\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/cudaTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\cudaTest\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/devTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\devTest\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/graphicsTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\graphicsTest\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/imGuiTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\imGuiTest\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/imageTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\imageTest\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/matrixTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\matrixTest\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/resourceCompiler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\resourceCompiler\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/resourceManagerTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\resourceManagerTest\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/serialPort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\serialPort\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/templateExperiments/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\templateExperiments\"/>
+		</Unit>
+		<Unit filename="/home/hendrik/CLionProjects/mpUtils/examples/tomlTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\tomlTest\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

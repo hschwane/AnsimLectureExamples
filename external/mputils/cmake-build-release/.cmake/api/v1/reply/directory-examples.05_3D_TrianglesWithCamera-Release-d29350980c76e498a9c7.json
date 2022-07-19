@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "examples/05_3D_TrianglesWithCamera",
+		"source" : "examples/05_3D_TrianglesWithCamera"
+	}
+}
